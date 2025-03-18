@@ -17,8 +17,8 @@ jobs:
            echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ."
 
     - name: checkout
-    uses: actions/checkout@v4.2.2
-      - name: list files in the repository 
-        run: |
+      uses: actions/checkout@v4.2.2
+    - name: list files in the repository 
+      run: |
           echo "the repository ${{ github.repository }} contains the following files:"
       
